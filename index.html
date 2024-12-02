@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='AKIRA KUMITA ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Web・モバイルエンジニアのKUMITA AKIRAです。よろしくお願いします!'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Web・モバイルエンジニアのKUMITA AKIRAです。よろしくお願いします!" />
+  <title>Web・モバイルエンジニア AKIRA KUMITA ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.png" />
+  <link rel=”canonical” href=”URLが入る” />
+  <!-- bootstrapの導入 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- .gnav -->
+    <nav class="gnav" class="fixed">
+      <ul class="gnav-list">
+        <!-- <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li> -->
+        <!-- <li class="gnav-item"><a class="gnav-link" href="#feature-section">FEATURE</a></li> -->
+        <li class="gnav-item"><a class="gnav-link" href="#about-section">ABOUT</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- /.gnav -->
+
+    <!-- .header -->
+    <header class="header">
+      <h1 class="logo">
+        <div class="logo-title">AKIRA KUMITA</div>
+        <div class="logo-subtitle">PORTFOLIO</div>
+      </h1>
+    </header>
+    <!-- /.header -->
+
+    <main class="content">
+      <!-- 今後必要に応じて追加する -->
+      <!-- .works-section -->
+      <!-- <section class="works-section section" id="works-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">WORKS</h2>
+          </div>
+          <div class="section-lead">
+            <p>Web（デザインとコーディング）制作の記録です。<br>デザイン練習用の架空サイト（ファーストビューのみ）も含んでおります。</p>
+          </div>
+          <div class="section-body works">
+            <div class="works-list js-my-gallery">
+              <figure class="works-item">
+                <a href="img/works/company.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/company.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design / Coding(Responsive) / WordPress</div>
+                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/hairsalon.jpg" data-size="960x720"
+                  class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png"
+                    data-src="img/works/hairsalon.jpg" alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design / Coding(Responsive) </div>
+                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/girly.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/girly.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/school.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/school.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/game.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/game.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/fashion.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/fashion.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- /.works-section -->
+
+      <!-- .feature-section -->
+      <!-- <section class="feature-section section" id="feature-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">FEATURE</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              １サイトの解説
+            </p>
+          </div>
+          <div class="section-body feature">
+            <div class="feature-item">
+              <div class="feature-image-wrapper">
+                <a href="https://www.yahoo.co.jp/" target="_blank" class="hover-action"><img clas="feature-image"
+                    src="img/feature/feature.jpg" alt=""></a>
+              </div>
+              <div class="feature-body">
+                <p>
+                  <span class="text-bold">サイト名：</span><br>サイト名が入る<br><a href="#" target="_blank">https://●●●.com</a>
+                </p>
+                <p><span class="text-bold">担当：</span><br>Design / Coding (Responsive) / WordPress / Writing</p>
+                <p><span
+                    class="text-bold">コメント：</span><br>テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+                <p>
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- /.feature-section -->
+
+      <!-- .about-section -->
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">ABOUT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              初めまして！
+            </p>
+          </div>
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <img class="about-image lazyload fadein" data-src="img/about/profile.jpg" alt="">
+              </div>
+              <div class="about-body">
+                <p>
+                  汲田 晶と言います。京都大学工学部電気電子工学科に所属しています。<br>
+                  プログラミングを始めたのは大学一回生のときで、あるサークル内で提供されているコンテンツで学びました。
+                  半年ほどでコンテンツが終わると、そのサークルの後援となっていた会社の方にお声がけいただき、プログラミングの実務に
+                  携わるようになりました。
+                </p>
+                <p>
+                  実務で主として扱った言語・フレームワークは、Python/Django、Flutter、JSで、インフラはAWSを使っていました。
+                  実務を通して、プログラミングでアプリを開発すること・業務を効率化することに面白みを覚え、最近では個人的にGo言語、Reactをはじめとする
+                  NodeJSのフレームワーク・ライブラリを学んでいます。また、実務の中でプロジェクトの保守をした経験から、一貫性のある・保守しやすいコード
+                  についても興味を持つようになり、日々公式ドキュメントやQiitaなどのエンジニアサイトで情報収集をしています。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about-section -->
+
+      <!-- .skill-section -->
+      <section class="skill-section section" id="skill-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">SKILL</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              成長を意識し、スキルを深めること、新しい知識で視野を広げることを心がけています。
+            </p>
+          </div>
+          <div class="section-body skill">
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/skill-html.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">HTML5/CSS3</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                  <p>
+                    関わっているプロジェクトが3ヶ月ごとにイベント広告のLPを作成しており、さらに毎回デザインが
+                    大きく変更されるため、かなりスピード感のあるコーディングが身につきました。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/skill-js.svg" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                  <p>
+                    関わっているプロジェクト内の制約でvanillaJSを書くことが多かったため、JS自体に関する理解が深まった経緯があります。
+                    Reactの状態管理手法をなるべく再現しようとしたこともいい経験でした。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/skill-python.svg" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Python/Django</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                  <p>
+                    初めて勉強した言語・フレームワークで、開発経験も最も長いです。Djangoで作られたサイトの保守PMをやっていたため、
+                    エラーの即時復旧・負債となっているコードのリファクタなどの経験もあります。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/skill-react.svg" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">React</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                  <p>
+                    PMとして引き継いだプロジェクトの新機能の実現のために導入されたいました。元々は保守が主でしたが、最近では
+                    技術的な興味から簡単なアプリを個人開発しています。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/skill-flutter.svg" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Flutter</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                  <p>
+                    関わっている教育事業で、新たに追加されたコースの教材を作成の一環として学習しました。
+                    最近ではより実践的で、保守性の高い設計について公式や様々な記事を読みながら模索しています。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/skill-go.svg" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Go/Gin</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                  <p>
+                    実務で扱ったことはありませんが、ITエンジニアによる記事に触れる中でGo言語による
+                    開発に興味を持ち、Ginなどを用いた簡単なCRUDアプリを個人開発して研鑽中です。将来的にはgRPC
+                    も扱えるようになりたいと思っています。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.skill-section -->
+
+      <!-- .contact-section -->
+      <section class="contact-section section" id="contact-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">CONTACT</h2>
+          </div>
+          <form id="contact-form" class="contact-form"
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScOtWCMCr_JyOGCu4GMw9bdB9R4QJqLCrMizzeH3ceVF702qw/formResponse"
+            method="POST">
+            <div class="mb-3">
+              <label for="contact-username" class="form-label">お名前</label>
+              <input type="text" class="form-control" id="contact-username" placeholder="お名前を入力してください"
+                name="entry.1864545323" required>
+            </div>
+            <div class="mb-3">
+              <label for="contact-email" class="form-label">メールアドレス</label>
+              <input type="email" class="form-control" id="contact-email" placeholder="メールアドレスを入力してください"
+                name="entry.120281973" required>
+            </div>
+            <div class="mb-3">
+              <label for="contact-message" class="form-label">お問い合わせ内容</label>
+              <textarea class="form-control" id="contact-message" rows="3" placeholder="お問い合わせ内容を入力してください"
+                name="entry.2048127966" required></textarea>
+            </div>
+            <button type="submit" id="submit-btn" class="btn submit-btn">送信</button>
+          </form>
+        </div>
+      </section>
+      <!-- /.contact-section -->
+
+    </main>
+
+    <!-- .footer -->
+    <footer class="footer">
+      <div class="page-top" id="js-page-top">
+        トップへもどる
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;AKIRA KUMITA. All Rights Reserved.</div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+
+  </div>
+
+  <!-- 下記はPhotoswipeプラグイン用 -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+       It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-setup.js"></script>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+
+</html>
